@@ -81,40 +81,44 @@ table {
     margin: 1.5rem 0 4rem 0;
 }
 
+/* Definição do estilo para a classe cabecalho__busca */
 .cabecalho__busca {
-    align-items: center;
-    border-radius: 10px;
-    background: linear-gradient(45deg, #C98CF1,#7B78E5);
-    display: flex;
-    height: auto;
-    justify-content: space-between;
-    padding: 2px;
-    width: auto; 
+    align-items: center; /* Alinha os itens ao centro */
+    border-radius: 10px; /* Arredonda os cantos com um raio de 10px */
+    background: linear-gradient(45deg, #C98CF1,#7B78E5); /* Fundo com gradiente linear de 45 graus */
+    display: flex; /* Exibe como um contêiner flexível */
+    height: auto; /* Altura automática */
+    justify-content: space-between; /* Espaça os itens uniformemente */
+    padding: 2px; /* Preenchimento de 2px */
+    width: auto; /* Largura automática */
 }
 
+/* Estilo para o fundo da busca, inicialmente oculto */
 .busca__fundo {
-    align-items: center;
-    background-color: #041A37;
-    border-radius: 8px;
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
+    align-items: center; /* Alinha os itens ao centro */
+    background-color: #041A37; /* Cor de fundo */
+    border-radius: 8px; /* Arredonda os cantos com um raio de 8px */
+    display: none; /* Oculta o elemento inicialmente */
+    margin: 0 auto; /* Margem automática para centralizar o elemento */
+    width: 100%; /* Largura total do contêiner */
 }
 
+/* Estilo para o input de busca */
 .busca__input {
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    font-size: 1rem;
-    height: 24px;
-    padding: 10px;
-    width: 500px;
+    align-items: center; /* Alinha os itens ao centro */
+    background-color: transparent; /* Fundo transparente */
+    border: none; /* Remove borda */
+    font-size: 1rem; /* Tamanho da fonte */
+    height: 24px; /* Altura do input */
+    padding: 10px; /* Preenchimento de 10px */
+    width: 500px; /* Largura do input */
 }
 
+/* Estilo para o ícone de busca */
 .busca__icone {
-    cursor: pointer;
-    width: 2rem;
-    height: 2rem;
+    cursor: pointer; /* Define o cursor como ponteiro ao passar sobre o ícone */
+    width: 2rem; /* Largura do ícone */
+    height: 2rem; /* Altura do ícone */
 }
 
 .cards {
@@ -244,34 +248,39 @@ table {
     font-size: 0.7rem;
 }
 
+/* Definição do estilo para a classe menu-lateral */
 .menu-lateral {
-    padding-right: 1.5rem;
-    box-sizing: border-box;
-    min-width: 270px;
+    padding-right: 1.5rem; /* Define o preenchimento à direita */
+    box-sizing: border-box; /* Inclui borda e preenchimento no tamanho total do elemento */
+    min-width: 270px; /* Largura mínima do elemento */
 }
 
+/* Estilo para a navegação dentro do menu-lateral */
 .menu-lateral__navegacao {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Exibe como um contêiner flexível */
+    flex-direction: row; /* Orientação dos itens em coluna */
 }
 
+/* Estilo para os links dentro do menu-lateral__navegacao */
 .menu-lateral__navegacao a {
-    font-family: 'Space Grotesk', sans-serif;
-    align-items: center;
-    display: flex;
-    margin-bottom: 1.5rem;
-    text-decoration: none;
-    color: #D9D9D9;
-    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif; /* Fonte usada */
+    align-items: center; /* Alinha itens ao centro */
+    display: flex; /* Exibe como um contêiner flexível */
+    margin-bottom: 1.5rem; /* Espaço inferior entre os itens */
+    text-decoration: none; /* Remove a sublinhado dos links */
+    color: #D9D9D9; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
 }
 
+/* Estilo específico para o primeiro link dentro do menu-lateral__navegacao */
 .menu-lateral__navegacao a:first-child {
-    font-weight: bold;
-    color: #7B78E5;
+    font-weight: bold; /* Texto em negrito */
+    color: #7B78E5; /* Cor específica */
 }
 
+/* Estilo para as imagens dentro do menu-lateral__navegacao */
 .menu-lateral__navegacao img {
-    margin-right: 1.5rem;
+    margin-right: 1.5rem; /* Espaço à direita da imagem */
 }
 
 .pagina-inicial {
