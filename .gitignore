@@ -20,6 +20,7 @@ __pycache__/
 escola_api_drf/env/
 gal/
 rest/
+loc/
 .env
 .venv
 env/
